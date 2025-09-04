@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.mi-btn {
+  background-color: aqua;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    padding-top: 50px;
+  }
+  .section-presentación {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50rem;
+    margin-left: 5rem;
+    font-size: large;
+    height: 50rem;
+  }
+  .section-presentación h1 {
+    padding-bottom: 2rem;
+  }
+  .section-presentación h2 {
+    padding-bottom: 1rem;
+  }
+  .section-presentación p {
+    padding-bottom: 1rem;
+    font-size: larger;
+  }
+  .section-presentación button {
+    max-width: 70%;
+  }
+  .navbar {
+    top: 0 !important;
+    bottom: auto !important;
+  }
+}
+.header-index {
+  position: relative;
+  z-index: 0;
+  background-image: url(../../img/background-cielo.jpg);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-presentación {
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.oscurecer-fondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.233);
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

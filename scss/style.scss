@@ -1,0 +1,23 @@
+@import "./utilities/extends";
+@import "./mq/mq";
+@import "./layout/header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+}
+
+a {
+  text-decoration: none !important; 
+  color: inherit !important;
+}
+
+.oscurecer-fondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.233); 
+  z-index: 1;
+}

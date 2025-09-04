@@ -12,7 +12,7 @@
        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-bottom">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="#" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Vibras Verdes
+                    <img src="../img/logo-vibrasverdes-transparente.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> Vibras Verdes
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,13 +43,35 @@
         </div>
     </header>
     <main>
-        <article>
-            <a href="#">
-                <img src="#" alt="#">
-                <h2>Lorem, ipsum.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.   Voluptas, perspiciatis!</p>
-            </a>
-        </article>
+        <section class="section-contacto">
+            <div class="div-contacto">
+                <h1>¿Queres participar?</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae dolores temporibus minus deleniti minima aut deing elit. Sint obcaecati beatae provident quo fugit accusantium voluptatibus? Dolores labore consectetur earum dolorem recusandae optio, sequi eaque incidunt officiis quam perspiciatis consequuntur?</h2>
+            </div>
+            <form action="#" method="post" class="form.contacto">
+                <label for="topic">Motivo de contacto:</label>
+                <select id="topic" name="topic" required>
+                    <option value="">Seleccionar</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Comentario:</label>
+                <!-- row def ine la altura visible del campo -->
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <!-- Suscripción -->
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes">
+                    Quiero recibir un aviso por correo cuando publiquen    nuevos artículos.
+                </label>
+                <!-- Botón de envío -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer>
         <p>© 2025 Vibras Verdes</p>

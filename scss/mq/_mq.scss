@@ -1,0 +1,40 @@
+@media only screen and (min-width: 700px) {
+
+// estilos generlaes
+
+body {
+    padding-top: 50px;
+}
+
+// header
+
+.section-presentación {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50rem;
+    margin-left: 5rem;
+    font-size: large;
+    height: 50rem;
+
+    h1 {
+        padding-bottom: 2rem;
+    }
+    h2 {
+        padding-bottom: 1rem;
+    }
+    p {
+        padding-bottom: 1rem;
+        font-size: larger;
+    }
+    button {
+        max-width: 70%;
+    }
+}
+
+.navbar {
+    top: 0 !important;
+    bottom: auto !important;
+}
+
+}
