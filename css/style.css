@@ -1,9 +1,35 @@
 @charset "UTF-8";
-.mi-btn {
-  background-color: aqua;
+.article-card button, .mi-btn {
+  background-color: rgb(255, 0, 234);
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
+  transition: transform 0.5s;
+}
+.article-card button:hover, .mi-btn:hover {
+  transform: scale(1.05);
+}
+
+.article-card {
+  max-width: 18rem;
+  padding: 1rem;
+  background-color: aqua;
+  border-radius: 0.5rem;
+}
+
+.header-index {
+  position: relative;
+  z-index: 0;
+  background-image: url(../../img/background-cielo.jpg);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-presentación {
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 @media only screen and (min-width: 700px) {
@@ -36,22 +62,15 @@
     top: 0 !important;
     bottom: auto !important;
   }
+  h3.titulo-subrrayado {
+    text-align: left !important;
+    font-weight: 600;
+    font-size: xx-large;
+  }
+  .article-card {
+    max-width: 30rem;
+  }
 }
-.header-index {
-  position: relative;
-  z-index: 0;
-  background-image: url(../../img/background-cielo.jpg);
-  height: auto;
-  background-size: cover;
-  background-position: center;
-}
-
-.section-presentación {
-  padding: 2rem;
-  position: relative;
-  z-index: 1;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -70,6 +89,14 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.233);
   z-index: 1;
+}
+
+.titulo-subrrayado {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  margin: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

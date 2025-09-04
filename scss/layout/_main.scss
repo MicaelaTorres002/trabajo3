@@ -1,0 +1,7 @@
+.article-card {
+    @extend %card-article;
+
+    button {
+        @extend %botones;
+    }
+}

@@ -1,6 +1,8 @@
 @import "./utilities/extends";
-@import "./mq/mq";
 @import "./layout/header";
+@import "./layout/main";
+@import "./mq/mq";
+
 
 * {
   margin: 0;
@@ -20,4 +22,12 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.233); 
   z-index: 1;
+}
+
+.titulo-subrrayado {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem; 
+  margin: 2rem; 
 }
