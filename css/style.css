@@ -1,12 +1,12 @@
 @charset "UTF-8";
-.article-card button, .mi-btn {
-  background-color: rgb(255, 0, 234);
+.boton-footer, .article-card button, .mi-btn {
+  background-color: rgba(88, 94, 87, 0.274);
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
   transition: transform 0.5s;
 }
-.article-card button:hover, .mi-btn:hover {
+.boton-footer:hover, .article-card button:hover, .mi-btn:hover {
   transform: scale(1.05);
 }
 
@@ -30,6 +30,30 @@
   padding: 2rem;
   position: relative;
   z-index: 1;
+}
+
+main {
+  background-color: rgb(215, 250, 229);
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: rgba(236, 158, 217, 0.603);
+  margin-bottom: 3rem;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 2rem 1rem 1rem;
+}
+footer img {
+  max-width: 3rem;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem 1rem;
 }
 
 @media only screen and (min-width: 700px) {
@@ -62,13 +86,15 @@
     top: 0 !important;
     bottom: auto !important;
   }
-  h3.titulo-subrrayado {
-    text-align: left !important;
+  .titulo-subrrayado {
     font-weight: 600;
     font-size: xx-large;
   }
   .article-card {
     max-width: 30rem;
+  }
+  footer {
+    margin: 0;
   }
 }
 * {
@@ -96,7 +122,7 @@ a {
   justify-content: center;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
-  margin: 2rem;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

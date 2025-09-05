@@ -39,14 +39,20 @@ body {
 
 // main
 
-h3.titulo-subrrayado {
-    text-align: left !important;
+.titulo-subrrayado {
+    // no puedo mandar para la izquierda el titulo
     font-weight: 600;
     font-size:xx-large;
 }
 
 .article-card {
     max-width: 30rem;
+}
+
+// footer
+
+footer {
+    margin: 0;
 }
 
 }

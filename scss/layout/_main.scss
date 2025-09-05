@@ -1,3 +1,8 @@
+main {
+    background-color: rgb(215, 250, 229);
+    padding-bottom: 2rem;
+}
+
 .article-card {
     @extend %card-article;
 

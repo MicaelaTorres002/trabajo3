@@ -1,6 +1,7 @@
 @import "./utilities/extends";
 @import "./layout/header";
 @import "./layout/main";
+@import "./layout/footer";
 @import "./mq/mq";
 
 
@@ -29,5 +30,5 @@ a {
   justify-content: center;
   text-decoration: underline;
   text-underline-offset: 0.5rem; 
-  margin: 2rem; 
+  padding: 2rem; 
 }

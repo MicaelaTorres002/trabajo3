@@ -1,0 +1,31 @@
+footer {
+    background-color:rgba(236, 158, 217, 0.603);
+    margin-bottom: 3rem;
+
+    nav {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 2rem 1rem 1rem;
+    }
+
+    img {
+        max-width: 3rem;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 2rem 1rem
+        
+        // no me lo toma
+        // button { 
+        //     @extend %botones;
+        // }
+    }
+}
+
+.boton-footer {
+    @extend %botones;
+    // arreglar link
+}
